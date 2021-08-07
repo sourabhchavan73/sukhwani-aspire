@@ -1240,6 +1240,9 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     padding-right: 0;
     padding-left: 0;
 }
+
+
+
 }@media (min-width:576px) {
     .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
@@ -6269,7 +6272,7 @@ html {
 }
 .nav-item-last {
     background-color: #fff;
-    width: 10em;
+    min-width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6287,7 +6290,7 @@ html {
     margin-left: 4px;
 }
 .banner-carousel-card {
-    background-color: #00455a;
+    background-color: #77281D;
 }
 .banner-carousel-title {
     font-size: 25px;
@@ -6314,9 +6317,6 @@ html {
 button {
     outline: 0!important;
     border: none!important;
-}
-.req-siteVisit-btn-section {
-    background-color: #00455a;
 }
 .req-siteVisit-btn {
     font-family: Poppins, sans-serif;
@@ -6462,7 +6462,7 @@ button {
     margin-top: 1.5em;
 }
 .emi-btn-section {
-    border: solid 1px #00455a!important;
+    border: solid 1px #796031!important;
     background-color: #fff;
     font-family: 'Josefin Sans';
     font-size: 13px;
@@ -6485,7 +6485,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00455a;
+    background-color: #77281D;
 }
 .lastcard-lastcol {
     position: absolute;
@@ -6753,7 +6753,7 @@ button {
     margin: 2em 0 0 3em;
 }
 .location-sections {
-    background-color: #00455a;
+    background-color: #77281D;
 }
 .fa-plus {
     text-rendering: optimizeLegibility;
@@ -6772,7 +6772,7 @@ button {
     padding-bottom: 1em;
 }
 .accordion-card-header {
-    background-color: #00455a!important;
+    background-color: #77281D!important;
     border-bottom: none;
     padding: 1em 20px 0 20px;
 }
@@ -6886,7 +6886,7 @@ button {
     justify-content: center;
 }
 .enquiry-submit-btn {
-    background-color: #00455a;
+    background-color: #796031;
     font-family: Poppins, sans-serif;
     font-size: 12.5px;
     line-height: 1.07;
@@ -7050,7 +7050,7 @@ div.scrollmenu h5:hover {
     font-size: 13px;
     letter-spacing: .46px;
     text-align: left;
-    background-color: #00455a;
+    background-color: #796031;
     border-radius: 4px;
     padding: 10px 20px;
 }
@@ -7132,7 +7132,7 @@ div.scrollmenu h5:hover {
     overflow: hidden;
     text-align: left;
     font-size: 0;
-    background-color: #747474;
+    background-color: #77281D;
 }
 .share-bar .share-bar--item {
     display: inline-block;
@@ -8410,7 +8410,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     margin: 3em 0 5em 0;
 }
 .enquiry-submit-btn {
-    margin: 3em 0 0 0;
+    margin: 3em 0;
 }
 .carousel-inner {
     position: relative;
@@ -8452,7 +8452,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     margin-bottom: 3em;
 }
 .navbar-collapse {
-    background-color: #00455a;
+    background-color: #22385E;
 }
 .share-bar {
     display: block;
@@ -8466,7 +8466,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00455a;
+    background-color: #77281D;
 }
 .areaPrice-card-atsm {
     padding-right: 10px!important;
@@ -8714,5 +8714,10 @@ to {
     animation: spin .8s linear infinite;
 }
 .nav-colored {
-    background-color: #00455a;
+    background-color: #22385E!important;
+    padding: 1em 4em 1em 4em;
+    transition: all 0.2s ease 0s;
+}
+footer{
+    background-color: #22385E!important;
 }
