@@ -29,7 +29,7 @@ $('#pills-tab li').click(function(){
 
   window.addEventListener("scroll", (event) => {
     var scroll = this.scrollY;
-    if  (scroll > 10){
+    if  (scroll > 1){
       $('#mynav').addClass('nav-colored');
       $('#mynav').removeClass('navbar-padding');
     }else {
