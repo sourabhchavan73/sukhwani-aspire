@@ -6295,6 +6295,7 @@ html {
 }
 .banner-carousel-card {
     background-color: #77281D;
+    opacity: 0.8;
 }
 .banner-carousel-title {
     font-size: 25px;
@@ -6500,7 +6501,7 @@ button {
     position: absolute;
 }
 .slider-bg-img {
-    background: url(../images/banner.jpg);
+    background: url(../images/banner-1.jpg);
     width: 100%;
     height: 100vh;
     min-height: 100%;
@@ -6704,8 +6705,9 @@ button {
     padding: .5em 0;
 }
 .Ameities-section img {
-    width: 50%;
+    width: 28%;
     height: auto;
+    margin-top: 1rem;
 }
 .ameities-sectionTwo-border-right {
     border-right: .5px solid #b7b7b7;
@@ -7101,7 +7103,7 @@ div.scrollmenu h5:hover {
     height: 51px;
     border: none;
     background: #fff;
-    z-index: 4999991;
+    z-index: 100;
     transform: translateZ(0) translate3d(0, 0, 0);
     -webkit-transform: translateZ(0) translate3d(0, 0, 0);
     -moz-transform: translateZ(0) translate3d(0, 0, 0);
@@ -8204,7 +8206,8 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     display: none;
 }
 #Home .carousel-item {
-    height: 17.5em;
+    height: 100%;
+    /* height: 17.5em; */
 }
 .blockTwo-logo {
     padding-bottom: 1em;
@@ -8577,7 +8580,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding: 6.5em 0;
 }
 .slider-bg-img {
-    background: url(../images/sliderone-sm.jpg);
+    background: url(../img/banner-1.jpg);
     width: 100%;
     height: 100%;
     min-height: 100%;
