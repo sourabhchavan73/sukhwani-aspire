@@ -8728,6 +8728,10 @@ footer{
 .navbar-brand{
     width: 50%;
 }
+.brand-logo{
+    max-width: 25%;
+    height: auto;
+}
 @media (max-width:576px) {
     .brand-logo {
         max-width: 50%;
