@@ -39,6 +39,8 @@ $('#pills-tab li').click(function(){
 });
 
 
+
+
 // lightbox 
 $(document).on('click touchstart', '[data-toggle="lightbox"]', function(event){
   event.preventDefault();

@@ -6261,7 +6261,7 @@ a {
     align-items: center;
 }
 .navbar-collapse .show {
-    background-color: #00455a;
+        background-color: #77281D;
 }
 .nav-link {
     padding: .2rem 1rem;
@@ -6419,7 +6419,7 @@ button {
     color: #747474;
 }
 .property-detailed-card {
-    background-color: #00455a;
+        background-color: #77281D;
 }
 .property-detailed-card-inner {
     padding: 1em;
@@ -6641,34 +6641,34 @@ button {
     height: 6px;
     width: 6px;
     border-radius: 50px;
-    background-color: #00455a;
+        background-color: #77281D;
 }
 .dot-2 {
     height: 7px;
     width: 7px;
     border-radius: 50px;
-    background-color: #00455a;
+        background-color: #77281D;
     margin: 0 15px;
 }
 .dot-3 {
     height: 9px;
     width: 9px;
     border-radius: 50px;
-    background-color: #00455a;
+        background-color: #77281D;
     margin: 0 7px;
 }
 .dot-4 {
     height: 7px;
     width: 7px;
     border-radius: 50px;
-    background-color: #00455a;
+        background-color: #77281D;
     margin: 0 0 0 15px;
 }
 .dot-5 {
     height: 6px;
     width: 6px;
     border-radius: 50px;
-    background-color: #00455a;
+        background-color: #77281D;
 }
 .line-after {
     border: 1.5px solid #00455a;
@@ -6735,7 +6735,7 @@ button {
     border: solid 1px #00455a;
 }
 .floorPlan-area-details {
-    background-color: #00455a;
+        background-color: #77281D;
     font-family: 'Rollgates Luxury';
     font-size: 13px;
     font-weight: 400;
@@ -6914,7 +6914,7 @@ button {
     margin-top: 5em;
 }
 .project-description-content {
-    font-family: Kleymissky, sans-serif;
+    font-family: 'Rollgates Luxury';
     font-size: 1.213rem;
     line-height: 1.66;
     letter-spacing: .8px;
@@ -6930,7 +6930,7 @@ button {
     margin: 0 1em;
 }
 .download-doc-btn {
-    background-color: #00455a;
+        background-color: #77281D;
     font-family: Rollgates Luxury, sans-serif;
     font-size: 12px;
     line-height: 1.07;
@@ -6948,7 +6948,7 @@ button {
     margin: 5em 0 7em 0;
 }
 .footer-first {
-    background-color: #00455a;
+        background-color: #77281D;
 }
 .footer-first p, .footer-second p {
     font-family: Rollgates Luxury, sans-serif;
@@ -6991,7 +6991,7 @@ div.scrollmenu a:hover {
     background-color: #777;
 }
 div.scrollmenu {
-    background-color: #00455a;
+        background-color: #77281D;
     overflow: auto;
     white-space: nowrap;
     border: solid .8px #00455a;
@@ -7096,7 +7096,7 @@ div.scrollmenu h5:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00455a;
+        background-color: #77281D;
 }
 .share-bar {
     position: fixed;
@@ -7420,7 +7420,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding-top: 0;
 }
 .block-content-title {
-    font-family: Kleymissky, sans-serif;
+    font-family: 'Rollgates Luxury';
     font-size: 1.213rem;
     line-height: 1.66;
     letter-spacing: .8px;
@@ -7432,7 +7432,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00455a;
+        background-color: #77281D;
     margin: 0 10px;
 }
 .property-detailed-section {
@@ -7525,7 +7525,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding: 8px 0;
 }
 .floorPlan-area-details {
-    background-color: #00455a;
+        background-color: #77281D;
     font-family: 'Rollgates Luxury';
     font-size: 11px;
     font-weight: 600;
@@ -7562,7 +7562,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding: 0 0 20px 0;
 }
 .footer-first {
-    background-color: #00455a;
+        background-color: #77281D;
     padding: 2em 0;
 }
 .specifications-content {
@@ -7629,9 +7629,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 .footer-second {
     margin-bottom: 3em;
 }
-.navbar-collapse {
-    background-color: #00455a;
-}
+
 .share-bar {
     display: block;
 }
@@ -7645,7 +7643,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00455a;
+        background-color: #77281D;
     margin: 0 10px;
 }
 .slider-bg-img-two {
@@ -7759,7 +7757,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     overflow: auto;
     flex-wrap: nowrap;
     border: solid .8px #00455a;
-    background-color: #00455a;
+        background-color: #77281D;
     white-space: nowrap;
 }
 .scrollmenu-new a {
@@ -7825,7 +7823,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding-top: 0;
 }
 .block-content-title {
-    font-family: Kleymissky, sans-serif;
+    font-family: 'Rollgates Luxury';
     font-size: 1.213rem;
     line-height: 1.66;
     letter-spacing: .8px;
@@ -7837,7 +7835,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00455a;
+        background-color: #77281D;
     margin: 0 10px;
 }
 .property-detailed-section {
@@ -7930,7 +7928,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding: 8px 0;
 }
 .floorPlan-area-details {
-    background-color: #00455a;
+        background-color: #77281D;
     font-family: 'Rollgates Luxury';
     font-size: 11px;
     font-weight: 600;
@@ -7967,7 +7965,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding: 0 0 20px 0;
 }
 .footer-first {
-    background-color: #00455a;
+        background-color: #77281D;
     padding: 2em 0;
 }
 .specifications-content {
@@ -8031,9 +8029,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 .footer-second {
     margin-bottom: 3em;
 }
-.navbar-collapse {
-    background-color: #00455a;
-}
+
 .share-bar {
     display: block;
 }
@@ -8046,7 +8042,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00455a;
+        background-color: #77281D;
     margin: 0 10px;
 }
 .slider-bg-img-two {
@@ -8065,7 +8061,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding: 6.5em 0;
 }
 .slider-bg-img {
-    background: url(../images/banner.jpg);
+    background: url(../img/banner-1.jpg);
     width: 100%;
     height: 100%;
     min-height: 100%;
@@ -8157,7 +8153,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     overflow-x: scroll;
     flex-wrap: nowrap;
     border: solid .8px #00455a;
-    background-color: #00455a;
+        background-color: #77281D;
     white-space: nowrap;
 }
 .scrollmenu-new a {
@@ -8231,7 +8227,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding-top: 0;
 }
 .block-content-title {
-    font-family: Kleymissky, sans-serif;
+    font-family: 'Rollgates Luxury';
     font-size: 1.213rem;
     line-height: 1.66;
     letter-spacing: .8px;
@@ -8243,7 +8239,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00455a;
+        background-color: #77281D;
 }
 .req-siteVisit-btn {
     font-family: Rollgates Luxury, sans-serif;
@@ -8354,7 +8350,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding: 8px 0;
 }
 .floorPlan-area-details {
-    background-color: #00455a;
+        background-color: #77281D;
     font-family: 'Rollgates Luxury';
     font-size: 11px;
     font-weight: 600;
@@ -8392,7 +8388,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding: 0 0 5px 0;
 }
 .footer-first {
-    background-color: #00455a;
+        background-color: #77281D;
     padding: 1.5em 0;
 }
 .specifications-content {
@@ -8625,7 +8621,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     overflow-x: scroll;
     flex-wrap: nowrap;
     border: solid .8px #00455a;
-    background-color: #00455a;
+        background-color: #77281D;
     white-space: nowrap;
 }
 .scrollmenu-new a {
@@ -8723,9 +8719,18 @@ to {
 }
 .nav-colored {
     background-color: #22385E!important;
-    padding: 1em 4em 1em 4em;
+    padding: 1em;
     transition: all 0.2s ease 0s;
 }
 footer{
     background-color: #22385E!important;
+}
+.navbar-brand{
+    width: 50%;
+}
+@media (max-width:576px) {
+    .brand-logo {
+        max-width: 50%;
+        height: auto;
+    }
 }
