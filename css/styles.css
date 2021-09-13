@@ -6231,9 +6231,7 @@ body, html {
 a {
     text-decoration: none!important;
 }
-html {
-    scroll-behavior: smooth;
-}
+
 
 @font-face {
     font-family: Rollgates Luxury;
@@ -6287,6 +6285,9 @@ html {
 }
 .nav-item:not(:last-child) {
     padding: 0 20px;
+    padding: 0 20px;
+    min-width: 125px;
+    white-space: nowrap;
 }
 .nav-arrow {
     height: auto;
@@ -6309,8 +6310,8 @@ html {
     padding: 3em;
 }
 .banner-carousel-content-title {
-    font-family: Kleymissky, sans-serif;
-    font-size: 1.213rem;
+    font-family: 'Rollgates Luxury';
+    font-size: 0.99rem;
     line-height: 1.66;
     letter-spacing: .75px;
     text-align: left;
@@ -6407,9 +6408,9 @@ button {
     padding-top: 2em;
 }
 .block-content-title {
-    font-family: Kleymissky, sans-serif;
-    font-size: 1.213rem;
-    font-weight: 400;
+    font-family: 'Rollgates Luxury';
+    font-size: 0.9rem;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.66;
@@ -6590,8 +6591,8 @@ button {
     color: #404040;
 }
 .sneak-pick-section-content {
-    font-family: Kleymissky, sans-serif;
-    font-size: 1.213rem;
+    font-family: 'Rollgates Luxury';
+    font-size: 0.9rem;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;

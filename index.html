@@ -39,9 +39,14 @@
 	window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-180225749-1");
 	</script>
 	<style>
-	.nav-colored {
-		background-color: #00455a;
-	}
+		.nav-colored {
+			background-color: #00455a;
+		}
+
+		.brand-logo{
+			max-width: 15%;
+			height: auto;
+		}
 	</style>
 </head>
 
@@ -51,18 +56,21 @@
 	<header>
 		<nav id="mynav" class="navbar navbar-padding navbar-expand-xl navbar-light fixed-top">
 			<div class="container-fluid">
+				<a class="navbar-brand" href="./index.html">
+					<img src="./img/logo.jpg" class="brand-logo" alt="logo">
+				</a>
+
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active"> <a class="nav-link" href="#Home">Home</a> </li>
-						<li class="nav-item"> <a class="nav-link" href="#About-project">About Project</a> </li>
-						<li class="nav-item"> <a class="nav-link" href="#explore-life">Explore Life</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="#About-project">Project Details</a> </li>
 						<li class="nav-item"> <a class="nav-link" href="#Amenities">Amenities</a> </li>
 						<li class="nav-item"> <a class="nav-link" href="#floor-plans">Floor Plans</a> </li>
 						<li class="nav-item"> <a class="nav-link" href="#contactUs">Contact Us</a> </li>
 						<li class="nav-item nav-item-last"> 
                             <a class="nav-link nav-link-last" href="#" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter('Request Site Visit');">Know More 
-                                <img loading="lazy" src="./images/nav-arrow.png" class="nav-arrow" alt="arrow"> 
+                                <img loading="lazy" src="./img/nav-arrow.png" class="nav-arrow" alt="arrow"> 
                             </a> 
                         </li>
 					</ul>
@@ -87,14 +95,14 @@
 
 			<!-- <a class=" banner-carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> 
                 <span class="carousel-control-prev-icon-first" aria-hidden="true">
-                    <img loading="lazy" class="header-slider-arrow" src="./images/banner-slider-left-arrow.png" alt="">
+                    <img loading="lazy" class="header-slider-arrow" src="./img/banner-slider-left-arrow.png" alt="">
                 </span>
                 <span class="sr-only">Previous</span> 
             </a>
 
 			<a class=" banner-carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> 
                 <span class="carousel-control-next-icon-first" aria-hidden="true">
-                    <img loading="lazy" class="header-slider-arrow" src="./images/banner-slider-right-arrow.png" alt="">
+                    <img loading="lazy" class="header-slider-arrow" src="./img/banner-slider-right-arrow.png" alt="">
                 </span> 
                 <span class="sr-only">Next</span> 
             </a> -->
@@ -115,7 +123,7 @@
 											<p class="banner-carousel-content-title font-candara">Home tells a story about who you are and what you aspire to be. A place of endless possibilities and dreams, where inspiration is found in the oddest of places. Where everyday is fully appreciated and authentically lived. Step into a home curated for those of ambitious minds, Who aspire to live a superior lifestyle, Who strive for more in life, Who yearn for exclusivity and experiences, Who have refined taste and sense of aesthetics. Introducing you to a life you've always aspired for.</p>
 										</div>
 										<div class="req-siteVisit-btn-section text-left ">
-											<div class="req-siteVisit-btn btn-close" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter('Enquire');"> Enquire Now <img loading="lazy" src="./images/nav-arrow.png" class="req-site-arrow" alt="arrow"> </div>
+											<div class="req-siteVisit-btn btn-close" data-toggle="modal" data-target="#exampleModal" onclick="removeFooter('Enquire');"> Enquire Now <img loading="lazy" src="./img/nav-arrow.png" class="req-site-arrow" alt="arrow"> </div>
 										</div>
 									</div>
 								</div>
@@ -148,7 +156,7 @@
 									</div>
 
 									<div class="">
-										<button class="emi-btn-section emi-block-one-btn" onclick="removeFooter()"> Launching Soon... </button>
+										<button class="emi-btn-section emi-block-one-btn" >  Possession is December 2024. </button>
 									</div>
 								</div>
 							</div>
@@ -245,7 +253,7 @@
 										</div>
 									</div>
 									<div class="btn-atLeft">
-										<button class="emi-btn-section" onclick="removeFooter()"> 12+ Banking Partners For 100% Easy Home Loan Processing </button>
+										<button class="emi-btn-section" > 12+ Banking Partners For 100% Easy Home Loan Processing </button>
 									</div>
 								</div>
 							</div>
@@ -368,7 +376,7 @@
 					<div class="col-md-11 mx-auto">
 						<div class="row d-flex align-items-center">
 							<div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-xs-12"> 
-                                <img loading="lazy" class="home-block-one-img mb-3" src="./images/RoofTop Entertainment.jpg" alt="block-one-img"> 
+                                <img loading="lazy" class="home-block-one-img mb-3" src="./img/RoofTop Entertainment.jpg" alt="block-one-img"> 
                             </div>
 							<div class="col-xl-5 col-lg-5 offset-lg-1 col-md-6 col-sm-6 col-xs-12 ">
 								<div>
@@ -464,7 +472,7 @@
 								</div>
 							</div>
 							<div class="col-xl-5 col-lg-5 offset-lg-1 col-md-6 col-sm-6 col-xs-12 col-12"> 
-                                <img loading="lazy" class="home-block-one-img mb-3" src="./images/seating-spaces.jpg" alt="block-one-img"> 
+                                <img loading="lazy" class="home-block-one-img mb-3" src="./img/seating-spaces.jpg" alt="block-one-img"> 
                             </div>
 						</div>
 					</div>
@@ -514,7 +522,7 @@
 									<img loading="lazy" src="./img/gallary-img-one.jpg" alt="Gallery-image-two" class="thumbnail img-fluid ">
 								</a>
 	
-								<a href="#_" class="lightbox" id="imgtwo">
+								<a href="#" class="lightbox" id="imgtwo">
 									<img loading="lazy" src="./img/gallary-img-one.jpg" alt="Gallery-image-two" class=" img-fluid">
 								</a>
 	
@@ -522,7 +530,7 @@
 									<img loading="lazy" src="./img/gallary-img-firstsec.jpg" alt="Gallery-image-three" class="thumbnail img-fluid gallary-img-secondrow">
 								</a>
 			
-								<a href="#_" class="lightbox" id="imgthree">
+								<a href="#" class="lightbox" id="imgthree">
 									<img loading="lazy" src="./img/gallary-img-firstsec.jpg" alt="Gallery-image-three" class=" img-fluid">
 								</a>
 					  		</div>
@@ -532,7 +540,7 @@
 									<img loading="lazy" src="./img/gallary-img-two.jpg" alt="Gallery-image-two" class="thumbnail img-fluid ">
 								</a>
 	
-								<a href="#_" class="lightbox" id="imgtwo">
+								<a href="#" class="lightbox" id="imgtwo">
 									<img loading="lazy" src="./img/gallary-img-two.jpg" alt="Gallery-image-two" class=" img-fluid">
 								</a>
 	
@@ -540,7 +548,7 @@
 									<img loading="lazy" src="./img/gallary-img-three.jpg" alt="Gallery-image-three" class="thumbnail img-fluid gallary-img-secondrow">
 								</a>
 			
-								<a href="#_" class="lightbox" id="imgthree">
+								<a href="#" class="lightbox" id="imgthree">
 									<img loading="lazy" src="./img/gallary-img-three.jpg" alt="Gallery-image-three" class=" img-fluid">
 								</a>
 					  		</div>
@@ -550,7 +558,7 @@
 							<img loading="lazy" src="./img/gallary-img-four.jpg" alt="Gallery-image-four" class="thumbnail img-fluid">
 						</a>
 
-						<a href="#_" class="lightbox" id="imgfour">
+						<a href="#" class="lightbox" id="imgfour">
 							<img loading="lazy" src="./img/gallary-img-four.jpg" alt="Gallery-image-four" class=" img-fluid">
 						</a>
 
@@ -558,7 +566,7 @@
 							<img loading="lazy" src="./img/gallary-img-five.jpg" alt="Gallery-image-five" class="thumbnail img-fluid gallary-img-secondrow">
 						</a>
 
-						<a href="#_" class="lightbox" id="imgfive">
+						<a href="#" class="lightbox" id="imgfive">
 							<img loading="lazy" src="./img/gallary-img-five.jpg" alt="Gallery-image-five" class=" img-fluid">
 						</a>
 					</div>
@@ -574,7 +582,7 @@
 						  <img loading="lazy" src="./img/gallary-img-one.jpg" alt="Gallery-image-one" class=" h-100 thumbnail img-fluid">
 						</a>
 	
-						<a href="#_" class="lightbox" id="img-sm1">
+						<a href="#" class="lightbox" id="img-sm1">
 						  <img loading="lazy" src="./img/gallary-img-one.jpg" alt="Gallery-image-one" class=" img-fluid">
 						</a>
 					  </div>
@@ -584,7 +592,7 @@
 						  <img loading="lazy" src="./img/gallary-img-two.jpg" alt="Gallery-image-two" class="thumbnail img-fluid ">
 						</a>
 	
-						<a href="#_" class="lightbox" id="img-smtwo">
+						<a href="#" class="lightbox" id="img-smtwo">
 						  <img loading="lazy" src="./img/gallary-img-two.jpg" alt="Gallery-image-two" class=" img-fluid">
 						</a>
 	
@@ -592,7 +600,7 @@
 						  <img loading="lazy" src="./img/gallary-img-three.jpg" alt="Gallery-image-three" class="thumbnail img-fluid gallary-img-secondrow">
 						</a>
 	
-						<a href="#_" class="lightbox" id="img-smthree">
+						<a href="#" class="lightbox" id="img-smthree">
 						  <img loading="lazy" src="./img/gallary-img-three.jpg" alt="Gallery-image-three" class=" img-fluid">
 						</a>
 					  </div>
@@ -605,8 +613,8 @@
 		</div>  
 	</section>
 
-	<section class="Ameities-section " id="Amenities">
-		<div class="container-fluid page-sections-atsm">
+	<section class="Ameities-section" id="Amenities">
+		<div class="container-fluid page-sections-atsm" id="amenities2">
 			<div class="row">
 				<div class="col-md-11 mx-auto text-center">
 					<h5 class="page-sections-title-one">World Class Ameities Curated For You</h5>
@@ -615,7 +623,7 @@
 							<div class="ameities-section-border-left">
 								<div class="ameities-section-border-inner"> 
 									<img class="ams" loading="lazy" src="./img/court.png" alt="court">
-									<p class="ameities-section-title">Entry Courts</p>
+									<p class="ameities-section-title">Entry Court</p>
 								</div>
 							</div>
 						</div>
@@ -771,8 +779,8 @@
 						<div class="col-4">
 							<div class="ameities-section-border-left">
 								<div class="ameities-section-border-inner"> 
-									<img loading="lazy" src="./img/court.png" alt="Entry Courts">
-									<p class="ameities-section-title">Entry Courts</p>
+									<img loading="lazy" src="./img/court.png" alt="">
+									<p class="ameities-section-title">Multi Purpose Court</p>
 								</div>
 							</div>
 						</div>
@@ -958,8 +966,8 @@
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
 													<div>
-														<a href="#img-fp1"> <img src="./images/17.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
-														<a href="#_" class="lightbox" id="img-fp1"> <img src="./images/17.png" alt="floor-plan-img" class=" img-fluid"> </a>
+														<a href="#img-fp1"> <img src="./img/17.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
+														<a href="#" class="lightbox" id="img-fp1"> <img src="./img/17.png" alt="floor-plan-img" class=" img-fluid"> </a>
 													</div>
 												</div>
 											</div>
@@ -968,8 +976,8 @@
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
 													<div>
-														<a href="#img-fp2"> <img src="./images/18.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
-														<a href="#_" class="lightbox" id="img-fp2"> <img src="./images/18.png" alt="floor-plan-img" class=" img-fluid"> </a>
+														<a href="#img-fp2"> <img src="./img/18.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
+														<a href="#" class="lightbox" id="img-fp2"> <img src="./img/18.png" alt="floor-plan-img" class=" img-fluid"> </a>
 													</div>
 												</div>
 											</div>
@@ -978,8 +986,8 @@
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
 													<div>
-														<a href="#img-fp3"> <img src="./images/19.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
-														<a href="#_" class="lightbox" id="img-fp3"> <img src="./images/19.png" alt="floor-plan-img" class=" img-fluid"> </a>
+														<a href="#img-fp3"> <img src="./img/19.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
+														<a href="#" class="lightbox" id="img-fp3"> <img src="./img/19.png" alt="floor-plan-img" class=" img-fluid"> </a>
 													</div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
@@ -993,8 +1001,8 @@
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
 													<div>
-														<a href="#img-fp4"> <img src="./images/17.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
-														<a href="#_" class="lightbox" id="img-fp4"> <img src="./images/17.png" alt="floor-plan-img" class=" img-fluid"> </a>
+														<a href="#img-fp4"> <img src="./img/17.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
+														<a href="#" class="lightbox" id="img-fp4"> <img src="./img/17.png" alt="floor-plan-img" class=" img-fluid"> </a>
 													</div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
@@ -1004,8 +1012,8 @@
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
 													<div>
-														<a href="#img-fp5"> <img src="./images/18.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
-														<a href="#_" class="lightbox" id="img-fp5"> <img src="./images/18.png" alt="floor-plan-img" class=" img-fluid"> </a>
+														<a href="#img-fp5"> <img src="./img/18.png" alt="floor-plan-img" class="thumbnail img-fluid"> </a>
+														<a href="#" class="lightbox" id="img-fp5"> <img src="./img/18.png" alt="floor-plan-img" class=" img-fluid"> </a>
 													</div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
@@ -1020,7 +1028,7 @@
 										<div class="col-lg-4 col-md-4 col-4">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/20.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/20.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1028,7 +1036,7 @@
 										<div class="col-lg-4 col-md-4 col-4">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/21.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/21.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1036,7 +1044,7 @@
 										<div class="col-lg-4 col-md-4 col-4">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/22.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/22.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1048,7 +1056,7 @@
 										<div class="col-6">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/20.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/20.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1056,7 +1064,7 @@
 										<div class="col-6">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/21.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/21.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1070,7 +1078,7 @@
 										<div class="col-lg-4 col-md-4 col-4">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/23.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/23.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1078,7 +1086,7 @@
 										<div class="col-lg-4 col-md-4 col-4">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/24.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/24.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1086,7 +1094,7 @@
 										<div class="col-lg-4 col-md-4 col-4">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/25.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/25.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1098,7 +1106,7 @@
 										<div class="col-6">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/22.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/22.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1106,7 +1114,7 @@
 										<div class="col-6">
 											<div class="floor-plan-section-card">
 												<div class="floor-plan-section-card-inner">
-													<div> <img class="img-fluid" src="./images/23.png" alt="floor-plan-img"> </div>
+													<div> <img class="img-fluid" src="./img/23.png" alt="floor-plan-img"> </div>
 													<div class="d-flex justify-content-end"> </div>
 												</div>
 											</div>
@@ -1116,10 +1124,10 @@
 							</div>
 						</div>
 						<div class="floorplan-indicator-section">
-							<a href="#myCarousel" data-slide="prev" class="floorPlan-carousel-control-prev"> <span class="floorPlan-carousel-control-prev-icon"><img class="sliderThree-arrow-atsm" src="./images/slider-two-left-arrow.png" alt="right arrow"></span> </a>
+							<a href="#myCarousel" data-slide="prev" class="floorPlan-carousel-control-prev"> <span class="floorPlan-carousel-control-prev-icon"><img class="sliderThree-arrow-atsm" src="./img/slider-two-left-arrow.png" alt="right arrow"></span> </a>
 						</div>
 						<div class="floorplan-indicator-section">
-							<a href="#myCarousel" data-slide="next" class="floorPlan-carousel-control-next"> <span class="floorPlan-carousel-control-next-icon"><img class="sliderThree-arrow-atsm" src="./images/slider-two-right-arrow.png" alt="right arrow"></span> </a>
+							<a href="#myCarousel" data-slide="next" class="floorPlan-carousel-control-next"> <span class="floorPlan-carousel-control-next-icon"><img class="sliderThree-arrow-atsm" src="./img/slider-two-right-arrow.png" alt="right arrow"></span> </a>
 						</div>
 					</div>
 				</div>
@@ -1224,7 +1232,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6 col-12 offset-lg-1"> <img class="img-fluid" src="./images/map.png" alt=""> </div>
+							<div class="col-lg-6 col-12 offset-lg-1"> <img class="img-fluid" src="./img/map.png" alt=""> </div>
 						</div>
 					</div>
 				</div>
@@ -1259,7 +1267,7 @@
 							</div>
 
 							<div class="enquiry-submit-btn-section">
-								<button type="submit" class="enquiry-submit-btn">Submit <img loading="lazy" src="./images/enquiry-form-arrow.png" alt="arrow" class="enquiry-form-arrow"> </button>
+								<button type="submit" class="enquiry-submit-btn">Submit <img loading="lazy" src="./img/enquiry-form-arrow.png" alt="arrow" class="enquiry-form-arrow"> </button>
 							</div>
 						</form>
 					</div>
@@ -1414,7 +1422,7 @@
 		<ul class="share-bar--list">
 			<a class="share-bar--item-link" data-toggle="modal" data-target="#exampleModal" href="#" title="Share on Facebook." target="_blank"> <i class="fas fa-envelope facebook share-bar--item"> </i> </a>
 			<a class="share-bar--item-link" href="tel:+91-7798444212" title="Tweet this Article" target="_blank"> <i class="fas fa-phone twitter share-bar--item"></i> </a>
-			<a class="share-bar--item-link" href="https://wa.link/903udw" title="Tweet this Article" target="_blank"> <i class="fab fa-whatsapp twitter share-bar--item"></i> </a>
+			<a class="share-bar--item-link" href="https://wa.link/903udw" title="Tweet this Article" target="_blank"> <i class="fab text-success fa-whatsapp twitter share-bar--item"></i> </a>
 		</ul>
 	</div>
 	<!-- Modal -->
@@ -1422,11 +1430,11 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="personal-demo-modal">
-					<button type="button" class="close ml-auto personal-demo-modal-closebtn" onclick="addFooter();" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><img loading="lazy" class="" src="./images/pop-up-close.png"></span> </button>
+					<button type="button" class="close ml-auto personal-demo-modal-closebtn" onclick="addFooter();" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><img loading="lazy" class="" src="./img/pop-up-close.png"></span> </button>
 					<div class="personal-demo-modal-body" id="personal-demo-modal-body">
 						<div class="row no-gutters d-flex align-items-center">
 							<div class="col-md-6 modal-leftcol-atsm">
-								<div class="personal-demo-modal-img-section"> <img loading="lazy" class="modal-left-img " src="./images/pop-up-img.html"> </div>
+								<div class="personal-demo-modal-img-section"> <img loading="lazy" class="modal-left-img " src="./img/pop-up-img.html"> </div>
 							</div>
 							<div class="col-md-6 col-12">
 								<div class="personal-demo-modal-content">
@@ -1445,7 +1453,7 @@
 											<input id="email" name="email" type="email" class="form-control" placeholder="Email ID*" data-ml-field="email" required> </div>
 										<input type="hidden" name="br" id="br">
 										<div class="">
-											<button type="submit" class="personal-demo-modal-btn"> Submit <img loading="lazy" src="./images/enquiry-form-arrow.png" alt="arrow" class="enquiry-form-arrow"> </button>
+											<button type="submit" class="personal-demo-modal-btn"> Submit <img loading="lazy" src="./img/enquiry-form-arrow.png" alt="arrow" class="enquiry-form-arrow"> </button>
 										</div>
 									</form>
 								</div>
@@ -1460,7 +1468,7 @@
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="personal-demo-modal">
-					<button type="button" class="close ml-auto personal-demo-modal-closebtn" onclick="addFooter();" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><img loading="lazy" class="" src="./images/pop-up-close.png"></span> </button>
+					<button type="button" class="close ml-auto personal-demo-modal-closebtn" onclick="addFooter();" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true"><img loading="lazy" class="" src="./img/pop-up-close.png"></span> </button>
 					<div class="personal-demo-modal-body" id="personal-demo-modal-body">
 						<div class="row no-gutters d-flex align-items-center">
 							<div class="col-md-12 col-12">
@@ -1483,7 +1491,7 @@
 					<!-- <h5 class="modal-title" id="advertiseModalLabel">Modal title</h5> -->
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
 				</div>
-				<div class="modal-body p-0"> <img loading="lazy" class="modal-left-img " src="./images/gracia.jpg"> </div>
+				<div class="modal-body p-0"> <img loading="lazy" class="modal-left-img " src="./img/gracia.jpg"> </div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 					<button type="button" id="advertiseModalbtn" class="enquiry-submit-btn my-0">Enquire Now</button>
